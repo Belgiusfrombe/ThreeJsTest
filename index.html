@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three.js Sphere</title>
+    <style>
+        body { margin: 0; overflow: hidden; }
+        canvas { display: block; }
+        #overlayText {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: white;
+            font-size: 30px;
+            font-family: Arial, sans-serif;
+            z-index: 10; /* Make sure text is on top of canvas */
+        }
+    </style>
+</head>
+<body>
+    <div id="overlayText">Hello, 3D World!</div> <!-- Texte superposé -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
