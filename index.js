@@ -31,8 +31,10 @@ function animate() {
     // Rotate the sphere
     sphere.rotation.x += 0.001;
     sphere.rotation.y += 0.001;
+    sphere.rotation.z += 0.001;
     wireSphere.rotation.x += 0.001;
     wireSphere.rotation.y += 0.001;
+    wireSphere.rotation.z += 0.001;
 
     renderer.render(scene, camera);
 }
